@@ -1,0 +1,12 @@
+@import "../colors";
+
+input{
+  border: none;
+  border-bottom: $font-color solid 2px;
+  background:transparent;
+  width: 100%;
+  &:focus {
+    outline: none;
+    transform: scale(1.02);
+  }
+}
